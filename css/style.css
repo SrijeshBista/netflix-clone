@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-main{
+    background-color:	#000000;
+   
+ 
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    margin: auto;
+    width: 90%;
+}
+.logo img{
+    width: 200px;
+}
+.btn1{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #db0000;
+    color: white;
+    font-weight: 600;
+   
+}
+.btn1:hover{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #831010;
+    color: white;
+    font-weight: 600;
+}
+.heading{
+    text-align: center;
+    height: 77vh;
+    color: white;
+    padding: 20px 30px;
+    background-image: url(/img/Netflix\ Nepal\ background\ img.jpg);
+    
+}
+.heading h1{
+    font-size: 50px;
+    margin-top:20px ;
+    width: 600px;
+    margin-left: 25%;
+    font-weight: 700;
+}
+.heading h2{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.heading h4{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.bar{
+    text-align: center;
+    margin-top: 50px;
+}
+.bar input{
+    font-size: 15px;
+    padding: 10px 90px 10px 10px;
+    background-color:	#000000;
+    border: 1px solid gray;
+    color: white;
+}
+.btn2{
+    font-size: 20px;
+    padding: 10px 20px ;
+    background-color: #db0000;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+.btn2:hover{
+    background-color: #831010;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 10px 20px ;
+    color: white;
+}
+.tre{
+    background-color:	#000000;
+    padding: 0 67px;
+}
+.tre h1{
+    font-size: 30px;
+    color: white;
+}
+.tre select{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    background-color:	#000000;
+    border: 2px solid white;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.movie img{
+    width: 200px;
+    margin-top: 30px;
+}
+.movie2 img{
+    width: 180px;
+    margin-top: 30px;
+}
+.movie3 img{
+    width: 180px;
+    margin-top: 30px;
+}
+.movie4 img{
+    width: 180px;
+    margin-top: 30px;
+}
+.rea{
+    background-color:#000000;
+    padding: 10px 67px;
+    color: white;
+}
+.more{
+    margin-top: 20px;
+}
+.reas{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+.enjoy{
+    background-color:#9DBDFF;
+    border:1px solid white;
+    padding: 10px 0px 200px 9px; 
+    border-radius: 20px;
+    margin: 20px;
+}
+.enjoy h2{
+    margin-bottom: 30px;
+    
+}
+.enjoy p{
+    margin-top: 20px;
+    width: 260px;
+}
+.Download{
+    background-color:#9DBDFF;
+   border: 2px solid wheat;
+   border-radius: 20px;
+   padding: 10px 30px 150px 30px;
+   margin-right: 20px;
+}
+.Download h2{
+    margin-bottom: 30px;
+}
+.Download p{
+    margin-top: 20px;
+    width: 200px;
+}
+.watch{
+    background-color:#9DBDFF;
+    border: 2px solid wheat;
+    border-radius: 20px;
+    padding: 30px 20px 180px 20px;
+    margin-right: 20px;
+}
+.watch h2{
+    margin-bottom: 30px;
+}
+.watch p{
+    margin-top: 20px;
+    width: 200px;
+}
+.create{
+    background-color:#9DBDFF;
+    border: 2px solid wheat;
+    border-radius: 20px;
+    padding: 30px 0px 170px 10px;
+    margin-right: 20px;
+}
+.create h2{
+    margin-bottom: 30px;
+}
+.watch p{
+    margin-top: 20px;
+    width: 250px;
+}
+.fre{
+    padding: 10px 67px;
+    background-color:	#000000;
+    color: white;
+}
+.question{
+    margin-top: 50px;
+    background-color:gray;
+    border: 1px solid white;
+    padding: 20px 30px;
+}
+.question i{
+    padding-left: 81%;
+    font-size: 20px;
+}
+.question1{
+    background-color:gray;
+    margin-top: 50px;
+    border: 1px solid white;
+    padding: 20px 30px;
+}
+.question1 i{
+    padding-left: 95%;
+    font-size: 23px;
+    
+}
+.question2{
+    background-color:gray;
+    margin-top: 50px;
+    border: 1px solid white;
+    padding: 20px 30px;
+    
+}
+.question2 i{
+    padding-left: 77%;
+    font-size: 20px;
+   
+}
+.question3{
+    background-color:gray;
+    margin-top: 50px;
+    border: 1px solid white;
+    padding: 20px 30px;
+}
+.question3 i{
+    padding-left: 79%;
+    font-size: 20px;
+}
+.question4{
+    background-color:gray;
+    margin-top: 50px;
+    border: 1px solid white;
+    padding: 20px 30px;
+}
+.question4 i{
+    padding-left: 95%;
+    font-size: 20px;
+}
+.question5{
+    margin-top: 50px;
+    background-color:gray;
+    border: 1px solid white;
+    padding: 20px 30px;
+}
+.question5 i{
+    padding-left: 95%;
+    font-size: 20px;
+}
+.bar p{
+    text-align: center;
+}
+.bar input{
+    margin-top: 30px;
+}
+.foot{
+    background-color: 	#000000;
+    padding: 0 67px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.us p{
+    font-size: 25px;
+}
+.faq p{
+    margin-top: 20px;
+    
+}
+.hep p{
+    margin-top: 20px;
+}
+.account p{
+    margin-top: 20px;
+}
+.center p{
+    margin-top: 20px;
+}
+.foot{
+    padding-bottom: 50px;
+}
+.foot a{
+    color:gray;
+}
+.button{
+    color: white;
+    padding-top: 50px;
+}
+.button select{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    background-color:	#000000;
+    border: 2px solid white;
+}
+.button p{
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+
+
+
